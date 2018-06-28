@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_244407_need_it_needit" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_244407_need_it_needit" sizeclass="4" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="New Field 2" max_length="40" name="new_field_2" type="integer"/>
         <element label="Impact" max_length="40" name="u_integer_2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Cost" max_length="20" name="u_price_1" type="price"/>
         <element label="Assigned To" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
@@ -27,6 +28,7 @@
                 <element label="Legal2" sequence="5" value="legal2"/>
                 <element label="Deskside1" sequence="6" value="deskside1"/>
                 <element label="Deskside2" sequence="7" value="deskside2"/>
+                <element label="Other" sequence="8" value="other"/>
             </choice>
         </element>
         <element label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
