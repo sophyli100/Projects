@@ -8,6 +8,7 @@
         <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" label="Cost" max_length="20" name="u_price_1" type="price"/>
         <element label="Assigned To" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="legal" label="Request Type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element label="Human Resources" sequence="0" value="hr"/>
