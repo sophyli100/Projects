@@ -6,37 +6,39 @@
         <assessment/>
         <content_page/>
         <device_type/>
-        <filter/>
-        <hint>List of all Needit records in the database</hint>
+        <filter table="x_244407_need_it_needit">u_requested_forDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_requested_for" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint>A list of my NeedIt Requests</hint>
         <homepage/>
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>NeedIts</mobile_title>
+        <mobile_title>My NeedIt Requests</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_244407_need_it_needit</name>
-        <order>200</order>
+        <order>150</order>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles>x_244407_need_it.admin</roles>
+        <roles>x_244407_need_it.needit_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-28 16:31:05</sys_created_on>
+        <sys_created_on>2018-06-29 18:29:04</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>04171c244f4313001b0800fe9310c797</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>All</sys_name>
+        <sys_id>835bf1b04f8313001b0800fe9310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My NeedIt Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Need It" source="x_244407_need_it">588804284f0313001b0800fe9310c7e7</sys_package>
         <sys_policy/>
         <sys_scope display_value="Need It">588804284f0313001b0800fe9310c7e7</sys_scope>
-        <sys_update_name>sys_app_module_04171c244f4313001b0800fe9310c797</sys_update_name>
+        <sys_update_name>sys_app_module_835bf1b04f8313001b0800fe9310c7ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 18:27:34</sys_updated_on>
+        <sys_updated_on>2018-06-29 18:29:04</sys_updated_on>
         <timeline_page/>
-        <title>All</title>
+        <title>My NeedIt Requests</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_244407_need_it_needit" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_244407_need_it_needit" sizeclass="6" type="collection">
         <element label="New field 1" max_length="40" name="new_field_1" type="integer"/>
         <element label="New Field 2" max_length="40" name="new_field_2" type="integer"/>
         <element label="Impact" max_length="40" name="u_integer_2" type="integer"/>
