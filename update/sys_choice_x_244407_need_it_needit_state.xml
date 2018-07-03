@@ -115,6 +115,44 @@
             <sys_updated_on>2018-06-28 17:13:27</sys_updated_on>
             <value>8</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Open</label>
+            <language>en</language>
+            <name>x_244407_need_it_needit</name>
+            <sequence>6</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-03 17:15:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1931160e4f4313001b0800fe9310c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-03 17:15:38</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Work in Progress</label>
+            <language>en</language>
+            <name>x_244407_need_it_needit</name>
+            <sequence>7</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-03 17:23:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0003964e4f4313001b0800fe9310c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-03 17:23:27</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>state</element>
             <name>x_244407_need_it_needit</name>
